@@ -52,4 +52,4 @@ jobs:
           app-name: 'angular-test2'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_61333ECB7F924216ABBA17A9A3B9F6B0 }}
-          package: ./dist/angular-test2/index.html
+          package: /home/runner/work/angular-test2/angular-test2
